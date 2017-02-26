@@ -1,0 +1,141 @@
+
+body{
+font-family: garamond;
+    /* Location of the image */
+ 
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  
+}
+
+#fixed-nav-bar{
+	height: 120px;
+}
+
+
+
+#homeHeading {
+	
+	text-align: center;
+	color: #fff;
+	font-family:  garamond;
+}
+#text{
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 250px 0px 0px 0px;
+	font-family:  garamond;
+}
+#text p{
+	text-align: center;
+	color: #fff;
+	font-size: 23px;
+}
+#text hr{
+	border-color: #F2F2F2;
+ 
+    max-width: 250px;
+}
+.another{
+	padding: 50px;
+}
+.fixed-nav-bar img{
+	width: 100px;
+	height: 60px;
+}
+.fixed-nav-bar {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.gambar {
+
+	margin: 30px 0px 0px 0px ;
+	height:400px;
+	width: 450px
+	
+}
+.gambar1{
+	padding: ;
+	height: 250px;
+	
+}
+.about p,h2,h3,h4{
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+.about{
+
+	font-size: 23px;
+	padding: 20px 0px 0px 0px;
+}
+.about hr{
+	border-color: #F2F2F2;
+    max-width: 250px;
+
+}
+#mid{
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
+	
+}
+#text2 img{
+	margin: 20px;
+	height: 200px;
+	width: 400px;
+}
+#text2 h1{
+	padding: 20px;
+}
+#text2{
+
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 440px;
+	width: fixed;
+	
+	font-family:  garamond;
+
+}
+#text2 p{
+
+	color: #fff;
+	font-size: 23px;
+	margin: 20px 100px 0px 0px;
+
+}
+
+.end hr{
+	background-color: none;
+}
+.end{
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	font-size: 20px;	
+}
+.kakiweb p{
+
+	
+	color: #fff;
+	font-size: 20px;
+}
+
